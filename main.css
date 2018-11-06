@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(200,200,200)
+}
+/* the first 2 lines of this is the universal reset to make it easier for styling, the 2nd 2 Tina almost always uses as it looks good - overrides the browser defaults */
+
+header, footer, section {
+  padding: 5%;
+}
+
+header {
+  text-align: center;
+  
+}
