@@ -8,85 +8,96 @@
   <!-- This is not displayed but is information the broswer needs such as where to find the css stylesheets, gridlex etc. -->
   <Title> Dan is the best mentor ever </Title>
   <!-- this title is what displays on the browser tab, each page is different to ease navigation -->
-  <link src="main.css" type=text/css rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  /* font awesome link */
+  <link href="main.css" type="text/css" rel="stylesheet"/>
   <!-- this is a relative link, the browser will look inside the file, not online - no http:// -->
 </head>
 <body>
   <!-- ----------------------------- HEADER ---------------------- -->
-  <header>
+  <header class="grid-middle-center">
     <div>
-      <h1> <span> sleep </span> like a baby </h1>
+      <h1> <span>sleep</span> like a baby </h1>
       <h2> the ultimate mattress solution </h2>
     </div>
   </header>
   <!-- ---------------------------- GRID PART ONE SECTION ---------------------- -->
-  <section class="grid">
-    <div class="bg-pug col-6_xs-12">
+  <section class="grid padding-none">
+    <div class="bg-pug col-6_sm-12">
     </div>
-    <div class="textbox col-6_xs-12"
+    <div class="textbox col-6_sm-12">
       <h3> built to last a <span>lifetime</span> </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
     </div>
   </section>
   <!-- ----------------------------- GRID PART TWO SECTION -------------------- -->
-  <section class="grid">
-    <div class="textbox col-6_xs-12"
+  <section class="grid padding-none mobile-flip">
+    <div class="textbox col-6_sm-12">
       <h3> so <span>soft</span> you'll melt </h3>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <p>
     </div>
-    <div class="bg-bed col-6_xs-12">
+    <div class="bg-bed col-6_sm-12">
     </div>
   </section>
   <!-- ----------------------------- CLOUD SECTION -------------------- -->
-  <section class="bg-dark">
-    <h3> <span> features </span> you will love </h3>
+  <section class="bg-dark white-text">
+    <h3 class="center"> <span> features </span> you will love </h3>
     <div class="grid">
-      <div class="col-3_md-6_xs-12">
-        <!-- cloud pic -->
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div class="col-3_md-6_xs-12 padded-2">
+        <div class="center">
+        <i class="fab fa-cloudversify fa-3x"></i>
+        </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
       </div>
-      <div class="col-3_md-6_xs-12">
-        <!-- cloud pic -->
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div class="col-3_md-6_xs-12 padded-2">
+        <div class="center">
+        <i class="fab fa-cloudversify fa-3x"></i>
+        </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
-      <div class="col-3_md-6_xs-12">
-        <!-- cloud pic -->
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div class="col-3_md-6_xs-12 padded-2">
+        <div class="center">
+        <i class="fab fa-cloudversify fa-3x"></i>
+        </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
-      <div class="col-3_md-6_xs-12">
-        <!-- cloud pic -->
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <div class="col-3_md-6_xs-12 padded-2">
+        <div class="center">
+        <i class="fab fa-cloudversify fa-3x"></i>
+        </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
     </div>
   </section>
     <!-- ----------------------------- PENCIL SECTION -------------------- -->
-  <section>
+  <section class="bg-pencils grid-middle-center">
     <div>
-      <h4> never underestimate the power of </h4>
-      <h2> a good night <span>sleep</span>
+      <h4 class="text-align-center"> never underestimate the power of </h4>
+      <h2 class="text-align-center"> a good night <span>sleep</span>
     </div>
   </section>
   <!-- ----------------------------- QUOTE SECTION -------------------- -->
   <section class="grid">
-    <div class="col-1 sm-hidden">
-      <!-- add quote mark -->
+    <div class="col-1 xs-hidden">
+      <i class="fas fa-quote-left fa-3x"></i>
     </div>
-    <div class="col-10">
+    <div class="col-10_xs-12">
       <p>I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of family and one for my dog too. </p>
       <p class="credit"> - A very happy customer </p>
     </div>
-    <div class="col-1 sm-hidden">
-      <!-- add quote mark -->
+    <div class="col-1 xs-hidden">
+      <i class="fas fa-quote-right fa-3x"></i>
     </div>
   </section>
   <!-- ----------------------------- FOOTER -------------------- -->
   <footer class="grid bg-dark">
-    <div class="col-6_xs-12">
+    <div class="col-6_xs-12 padded-3">
       <h2> let's <span>connect</span></h2>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <form class="col-6_xs-12">
+    <form class="col-6_xs-12 padded-3">
       <input type="text" name="name" placeholder="Your Name"/>
       <input type="email" name="email" placeholder="Your Email" />
       <textarea name="comment" placeholder="Tell us what you want to say..." ></textarea>

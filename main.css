@@ -2,15 +2,126 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(200,200,200)
+  /*border: 1px solid rgb(200,200,200)*/
 }
 /* the first 2 lines of this is the universal reset to make it easier for styling, the 2nd 2 Tina almost always uses as it looks good - overrides the browser defaults */
 
+/*universal styles next*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 header, footer, section {
   padding: 5%;
 }
-
+/* typography*/
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  text align: left;
+}
+p {
+  font-size: 1rem;
+}
+span {
+  color: orange;
+}
+/*modular classes - target a specific function e.g. getting rid of padding - */
+.padding-none {
+  padding: 0;
+}
+.padded-2 {
+  padding: 2%;
+}
+.padded-3 {
+  padding: 3%;
+}
+.center {
+  text-align: center;
+  margin-bottom: 10%;
+}
 header {
   text-align: center;
-  
+  background-image: url("images/palm.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 90vh;
+}
+/* vh = vertical height so you can ensure that the header in this case takes up a lot of the page when you first open it*/
+/* can adjust the position of the div in the header using flex instead of the gridlex way in html that we used */
+.bg-pug {
+  background-image: url("images/pug.jpg");
+  background-size: cover;
+  background-position: 50% 33%;
+  min-height: 40vh;
+}
+.bg-bed {
+  background-image: url("images/bed.jpg");
+  background-size: cover;
+  background-position: 50% 33%;
+  min-height: 40vh;
+}
+.bg-pencils {
+  background-image: url("images/pencil.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+.textbox {
+  padding: 5%;
+}
+.bg-dark {
+  background-color: #1A2B36;
+  color: white;
+}
+.bg-pencils span {
+  color: white;
+}
+.credit {
+  text-align: right;
+  font-size: 0.75rem;
+}
+.text-align-center {
+text-align: center;
+}
+input, textarea {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding:3%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+}
+footer {
+  padding: 3%;
+}
+footer span {
+  display: block;
+}
+.button {
+  background-color: orange;
+  border: none;
+}
+.quotation-marks {
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media all and (max-width:768px) {
+    /* For mobile phones -same as gridlex md */
+    [class*="mobile-flip"] {
+        flex-direction: column-reverse;
+    }
+  }
+.center {
+  text-align: center;
+  margin-bottom: 10%;
 }
