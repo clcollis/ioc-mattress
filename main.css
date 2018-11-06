@@ -13,6 +13,7 @@ body {
 header, footer, section {
   padding: 5%;
 }
+
 /* typography*/
 h1 {
   font-size: 4rem;
@@ -49,6 +50,7 @@ span {
   text-align: center;
   margin-bottom: 10%;
 }
+
 header {
   text-align: center;
   background-image: url("images/palm.jpg");
@@ -77,15 +79,15 @@ header {
   background-position: center;
   min-height: 50vh;
 }
-.textbox {
-  padding: 5%;
-}
 .bg-dark {
   background-color: #1A2B36;
   color: white;
 }
 .bg-pencils span {
   color: white;
+}
+.textbox {
+  padding: 5%;
 }
 .credit {
   text-align: right;
@@ -94,6 +96,7 @@ header {
 .text-align-center {
 text-align: center;
 }
+
 input, textarea {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -115,13 +118,16 @@ footer span {
   font-size: 3rem;
   font-weight: bold;
 }
+.center {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+<!-- ---------------- JQUERIES GO AFTER ---------------- -->
+
 @media all and (max-width:768px) {
     /* For mobile phones -same as gridlex md */
     [class*="mobile-flip"] {
         flex-direction: column-reverse;
     }
   }
-.center {
-  text-align: center;
-  margin-bottom: 10%;
-}
