@@ -123,11 +123,12 @@ footer span {
   margin-bottom: 10%;
 }
 
-<!-- ---------------- JQUERIES GO AFTER ---------------- -->
+/*  JQUERIES GO AFTER */
 
-@media all and (max-width:768px) {
+@media (max-width:768px) {
     /* For mobile phones -same as gridlex md */
     .mobile-flip {
         flex-direction: column-reverse;
     }
-  }
+
+}
