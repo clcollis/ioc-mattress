@@ -17,7 +17,7 @@ header, footer, section {
 /* typography*/
 h1 {
   font-size: 4rem;
-  line-height: 1.6;
+  line-height: 1.1;
 }
 h2 {
   font-size: 2rem;
@@ -132,6 +132,10 @@ footer span {
     /* For mobile phones -same as gridlex md */
     .mobile-flip {
         flex-direction: column-reverse;
+      }
+    [class*=grid-], [class*=grid_], [class~=grid] {
+        margin: 0;
+        }
     }
 
 }
