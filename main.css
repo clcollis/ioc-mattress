@@ -17,6 +17,7 @@ header, footer, section {
 /* typography*/
 h1 {
   font-size: 4rem;
+  line-height: 1.6;
 }
 h2 {
   font-size: 2rem;
@@ -54,7 +55,7 @@ span {
 header {
   text-align: center;
   background-image: url("images/palm.jpg");
-  background-color: green;
+  background-color: #445A43;
   background-size: cover;
   background-position: center;
   color: white;
@@ -76,6 +77,7 @@ header {
 }
 .bg-pencils {
   background-image: url("images/pencil.jpg");
+  background-color: orange;
   background-size: cover;
   background-position: center;
   min-height: 50vh;
