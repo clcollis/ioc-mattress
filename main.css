@@ -116,7 +116,7 @@ footer span {
 }
 .quotation-marks {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 .center {
   text-align: center;
@@ -127,7 +127,7 @@ footer span {
 
 @media all and (max-width:768px) {
     /* For mobile phones -same as gridlex md */
-    [class*="mobile-flip"] {
+    .mobile-flip {
         flex-direction: column-reverse;
     }
   }
