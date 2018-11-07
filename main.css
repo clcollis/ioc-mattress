@@ -54,6 +54,7 @@ span {
 header {
   text-align: center;
   background-image: url("images/palm.jpg");
+  background-color: green;
   background-size: cover;
   background-position: center;
   color: white;
